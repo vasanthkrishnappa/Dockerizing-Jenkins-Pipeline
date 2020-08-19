@@ -1,2 +1,2 @@
 # Dockerizing-Jenkins-Pipeline
-testing the auto trigger
+the testing the auto trigger
