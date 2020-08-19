@@ -4,5 +4,5 @@ RUN apt-get install -y apache2
 RUN apt-get install -y apache2-utils
 RUN apt-get clean
 EXPOSE 80
-ADD login.html /var/www/html
+copy login.html /var/www/html/index.html
 CMD ["apache2ctl","-D","FOREGROUND"]
